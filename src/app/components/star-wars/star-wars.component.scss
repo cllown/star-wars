@@ -1,0 +1,44 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+.Header{
+display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+button {
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.character-card {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 280px;
+  padding: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  background-color: #222;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.character-card:hover {
+  transform: scale(1.05);
+}
