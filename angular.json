@@ -17,10 +17,10 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "baseHref": "/star-wars-movies/",
-            "outputPath": "docs",
-            "index": "src/index.html",
+            "baseHref": "/star-wars/",
             "browser": "src/main.ts",
+            "outputPath": "docs/star-wars",
+            "index": "src/index.html",
             "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
